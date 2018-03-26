@@ -14,4 +14,23 @@ For this task, we were given examples of 6 basic emotions - anger, disgust, fear
 
 ### Results
 
-TBA
+Code Accuracy 	= 73.51%
+Overall		= 91%
+
+## Coursework 2: Neural Networks
+
+### Abstract
+
+This report covers our implementation of a neural network trained to classify facial images into one of 7 emotions. The hyperparameter optimisation process is detailed step by step and the performance results of the final network is presented. Finally, the questions given in the coursework specification are answered.
+
+### Introduction
+
+Previously we have used Decision Trees to classify facial expressions into one of 6 basic emotions: anger, disgust, fear, happiness, sadness and surprise. However, the input data given to us was in the form of Action Units (AU), essentially combinations of different active muscles in a face that result in facial expressions that we as humans can perceive as emotions. Whilst trivial for humans, identifying emotions is still quite difficult for computers to do correctly. We found that Decision Trees were good at classifying emotions from arrays of AUs, however this would not be the case in a practical example, such as providing an image of a person's face as input. For this, a more advanced machine learning technique is required, namely 'Neural Networks'.
+
+For this exercise, we were provided 30x30 pixel greyscale images of people's faces, along with the target for that image, which was one of the 6 basic emotions: anger, disgust, fear, happiness, sadness and surprise, as well as a 7th, neutral. We were provided a toolkit for initialising, training and testing a neural network, as well as steps on how to optimise the hyperparameters (which we will simply refer to as parameters for the rest of this report) in order to achieve the highest classification performance when the network was run on the 'unseen' test set given.
+
+### Results
+
+Code Accuracy 	= 49.26%
+Overall		= 67%
+
