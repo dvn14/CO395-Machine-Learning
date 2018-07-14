@@ -32,5 +32,4 @@ For this exercise, we were provided 30x30 pixel greyscale images of people's fac
 ### Results
 
 Code Accuracy 	= 49.26%
-Overall		= 67%
 
